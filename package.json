@@ -18,7 +18,7 @@
     "vue": "^3.5.17"
   },
   "bun-create": {
-    "preinstall": "rm -rf .github"
+    "postinstall": "rm -rf .github"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
