@@ -11,14 +11,14 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
-    "format": "prettier --write src/",
-    "bun-create": {
-      "postinstall": "rm -rf .github"
-    }
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "pinia": "^3.0.3",
     "vue": "^3.5.17"
+  },
+  "bun-create": {
+    "postinstall": "rm -rf .github"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
